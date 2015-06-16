@@ -1,122 +1,22 @@
 (:toc:)
 
-위키의 렌더링 테스트입니다. <br /> Testing...
+== 안녕하세요!! 헬조선 위키입니다. ==
 
-현재는 아무것도 없습니다. 많은 기여가 필요합니다. 같이 만들어요~~
+현재는 아무것도 없습니다. 
+여러분들의 많은 기여가 필요합니다. 
+같이 만들어요~~
 
-== Nowiki test ==
-=== Nowiki test ===
-==== Nowiki test ====
-===== Nowiki test =====
-<nowiki>1</nowiki>
-<nowiki>2</nowiki>
-<nowiki>3</nowiki>
+=== 기획의도 ===
+헬조선을 직시하고자 체계적이고 정갈한 위키를 만들고자 합니다.
 
-== Nowiki test ==
+=== 기술사항 ===
+위키피디아의 문법을 전반적으로 지원하고 있으나
+아직 렌더러가 초기 모델이라 지원되지 않는 부분들도 있을 수 있습니다.
+Github 이슈에 신고 바랍니다. 일반 질문은 https://chosun.cf/q2a/ 로 해주시면 감사하겠습니다!
 
-= Nowiki test =
+=== 기타사항 ===
+일반적인 사용법은 Github의 기여하는 법을 참고하시면 사용법을 개략적으로 파악하실 수 있습니다!!
 
-<nowiki>[[wooticles|narf]] and '''test''' and stuff.</nowiki>
+( : toc : ) <띄어쓰기 붙여서> 를  써주시면 해당 문서의 목차를 출력해줍니다. (Github에선 자동으로 출력해주나, 본 위키에서는 이 명령어를 넣어 주셔야 추가됩니다. :)
 
-== Character formatting ==
-This is ''emphasized'', this is '''really emphasized''', this is ''''grossly emphasized'''',
-This is imbalanced right ''emphasized'''
-This is imbalanced left '''emphasized''
-and this is just '''''freeking insane'''''.
-No End '''NO END
-Done.
-
-== Variables ==
-{{CURRENTDAY}}/{{CURRENTMONTH}}/{{CURRENTYEAR}}
-Done.
-
-== Image test ==
-[[:Image:http://www.dogdrip.net/ext_ilbe_data/dc/2014/12/4/547fd00028a22.jpg]]
-[[Image:http://www.dogdrip.net/ext_ilbe_data/dc/2014/12/4/547fd00028a22.jpg|frame|alternate text]]
-[[Image:http://www.dogdrip.net/ext_ilbe_data/dc/2014/12/4/547fd00028a22.jpg|right|alternate text]]
-Done.
-
-== Horizontal Rule ==
-Above the rule.
-----
-Done.
-
-== Hyperlink test ==
-This is a [[namespace:link target|bitchin hypalink]] to another document for [[click]]ing, with [[(some) hidden text]] and a [[namespace:hidden namespace]].
-
-[[simpletest This Should Be Simple?]]
-
-A link to an external site [http://www.google.ca] as well another [http://www.esitemedia.com], and a [http://www.blitzaffe.com titled link] -- woo!
-Done.
-
-== Preformat ==
-Not preformatted.
- Totally preformatted 01234    o o
- Again, this is preformatted    b    <-- It's a face
- Again, this is preformatted   ---'
-Done.
-        
-== Bullet test ==
-* One bullet
-* Another '''bullet'''
-*# a list item
-*# another list item
-*#* unordered, ordered, unordered
-*#* again
-*# back down one
-Done.
-
-== Definition list ==
-; yes : opposite of no
-; no : opposite of yes
-; maybe
-: somewhere in between yes and no
-Done.
-
-== Indent ==
-Normal
-: indented woo
-: more indentation
-Done.
-
-
-{| border="1" cellspacing="0" cellpadding="2"
-|-
-!scope="col"| Item
-! Quantity
-!scope="col"| Price
-|-
-!scope="row"| Bread
-|scope="col"| 0.3 kg
-| $0.65
-|-
-!scope="row"| Butter
-| 0.125 kg
-| $1.25
-|-
-!scope="row" colspan="2"| Total
-| $1.90
-|}
-
-
-{|
-! align="left"|Item
-! Amount
-! Cost
-|-
-|Orange
-|10
-|7.00
-|-
-|Bread
-|4
-|3.00
-|-
-|Butter
-|1
-|5.00
-|-
-!Total
-|
-|15.00
-|}
+CDN 서버에 위키가 통째로 동기화됩니다. 약간의 편집 시간차가 발생할 수 있습니다.
