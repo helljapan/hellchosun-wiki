@@ -17,6 +17,11 @@
 
 Github 웹에서 사용하시는 에디터 화면에 Edit New File 옆에 Preview 탭이 있습니다. 눌러보시면서 페이지의 모양을 예상하시면서 작업하시면 편리합니다.
 
+![1](https://chosun.cf/blobs/images/basics/guides/new/1.png)
+
+![2](https://chosun.cf/blobs/images/basics/guides/new/2.png)
+
+![3](https://chosun.cf/blobs/images/basics/guides/new/3.png)
 
 ### 문서 편집 제안하기
 
